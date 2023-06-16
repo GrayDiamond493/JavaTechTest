@@ -48,8 +48,10 @@ used only half the length, so it reverts as I want it to.
 ```
 
 Then, as I was still upset about the library 'reverse' method, I did some research about it
-and found out it would never work with native intdata types, and it would only work if it
-was Integer, so I implemented a rustic translation from and int[] array to an Integer[] one.
+and found out it would never work with native int data types, and it would only work if it
+was Integer, so I implemented a rustic translation from an int[] array to an Integer[] one.
+
+After that, it works perfectly!
 ```java    
     //Reverse Implementation
     public static Object[] zeroMoverReverse(int[] arr){
